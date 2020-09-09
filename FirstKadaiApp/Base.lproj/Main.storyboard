@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0f-xy-Zv4">
-                                <rect key="frame" x="199" y="312" width="46" height="30"/>
+                                <rect key="frame" x="184" y="406" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="JIV-bD-tZg"/>
@@ -25,15 +25,16 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="l0f-xy-Zv4" firstAttribute="leading" secondItem="qbs-5a-h8p" secondAttribute="leading" constant="199" id="YWL-v7-ihQ"/>
-                            <constraint firstItem="l0f-xy-Zv4" firstAttribute="top" secondItem="qbs-5a-h8p" secondAttribute="top" constant="312" id="lII-6A-j5D"/>
+                            <constraint firstItem="l0f-xy-Zv4" firstAttribute="centerX" secondItem="UbY-iP-T0D" secondAttribute="centerX" id="Nov-hO-5Ao"/>
+                            <constraint firstItem="l0f-xy-Zv4" firstAttribute="centerY" secondItem="UbY-iP-T0D" secondAttribute="centerY" id="ZBq-0M-fKb"/>
+                            <constraint firstItem="l0f-xy-Zv4" firstAttribute="centerX" secondItem="UbY-iP-T0D" secondAttribute="centerX" id="t0R-zA-pNW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qbs-5a-h8p"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ph-LU-Aao" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-554" y="129"/>
+            <point key="canvasLocation" x="-555.07246376811599" y="128.57142857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -43,23 +44,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiV-pa-kGh">
-                                <rect key="frame" x="166" y="320" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiV-pa-kGh">
+                                <rect key="frame" x="184" y="348" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="aDN-jM-YHE" kind="presentation" id="ZDq-SK-e7J"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="はじめてのアプリ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dp-RR-dHS">
-                                <rect key="frame" x="73" y="172" width="269" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="はじめてのアプリ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dp-RR-dHS">
+                                <rect key="frame" x="85.5" y="403" width="243" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96078532934188843" green="0.85614109039306641" blue="0.95074754953384399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1dp-RR-dHS" firstAttribute="top" secondItem="AiV-pa-kGh" secondAttribute="bottom" constant="25" id="FXh-TV-7dJ"/>
+                            <constraint firstItem="AiV-pa-kGh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X2u-bY-xq7"/>
+                            <constraint firstItem="1dp-RR-dHS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fZR-rz-725"/>
+                            <constraint firstItem="1dp-RR-dHS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gNF-4r-88b"/>
+                            <constraint firstItem="1dp-RR-dHS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sWE-4D-iOC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
